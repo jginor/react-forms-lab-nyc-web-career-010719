@@ -5,6 +5,7 @@ import TwitterMessage from "./components/TwitterMessage";
 class App extends Component {
 
   login = ({ username, password }) => {
+    // debugger
     console.log(`Logging in ${username} with password ${password}`);
   };
 
@@ -21,8 +22,6 @@ class App extends Component {
           <pre>TwitterMessage</pre>
         </h1>
         <TwitterMessage maxChars={140} />
-
-
 
       </div>
     )
